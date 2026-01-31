@@ -1,0 +1,75 @@
+{
+  "name": "Shiroko",
+  "version": "4.3.2",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 index.js",
+    "dev": "node --watch --max-old-space-size=4096 index.js",
+    "install:prod": "npm ci --production",
+    "install:dev": "npm ci",
+    "optimize": "npm dedupe && npm prune"
+  },
+  "engines": {
+    "node": ">=18.18",
+    "npm": ">=9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arlette-Xz/Shiroko-Bot.git"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:Melody-Xz/Delta",
+    "awesome-phonenumber": "^5.5.1",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "file-type": "^18.7.0",
+    "imagemaker.js": "^2.0.4",
+    "gradient-string": "^2.0.2",
+    "google-libphonenumber": "^3.2.41",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.46",
+    "node-fetch": "^3.3.2",
+    "@napi-rs/canvas": "^0.1.53",
+    "pino": "^8.4.0",
+    "acrcloud": "^1.4.0",
+    "cheerio": "npm:cheerio@1.0.0-rc.12",
+    "cfonts": "^3.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.1",
+    "url-regex-safe": "^4.0.0",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.5",
+    "ws": "^8.16.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "sharp": "^0.34.4",
+    "formdata-node": "^5.0.0",
+    "axios": "^1.1.2",
+    "node-gtts": "^2.0.2",
+    "node-os-utils": "^1.3.6",
+    "node-webpmux": "^3.1.3",
+    "openai": "^3.3.0",
+    "performance-now": "^2.1.0",
+    "ruhend-scraper": "^7.0.4",
+    "similarity": "^1.2.1",
+    "lowdb": "^3.0.0",
+    "jimp": "^0.16.13",
+    "jsdom": "^20.0.1",
+    "@vitalets/google-translate-api": "^8.0.0",
+    "human-readable": "^0.2.1",
+    "hispamemes": "^1.0.7",
+    "megajs": "^1.1.3",
+    "mongoose": "^6.6.5",
+    "node-cache": "^5.1.2",
+    "uuid": "^10.0.0",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "syntax-error": "^1.4.0",
+    "aptoide-scraper": "github:DIEGO-OFC/dv-aptoide-scraper"
+  },
+  "optionalDependencies": {
+    "wa-sticker-formatter": "^4.3.2"
+  }
+}
