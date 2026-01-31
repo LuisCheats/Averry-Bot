@@ -472,7 +472,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, sender }) => {
       selectedMenu = Object.values(menus).join('\n\n')
     }
 
-    const txt = `${menuHeader}\n\n${selectedMenu}\n\n> 𝘽𝙮 𝙇𝙪𝙞𝙨 𝟳𝙭`
+    const txt = `${menuHeader}\n\n${selectedMenu}\n\n> Averry `
     
     conn.sendMessage(m.chat, {
       image: menuImage,
