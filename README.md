@@ -182,7 +182,7 @@ npm start
 
 <p align="center">
   <a href="https://github.com/Arlette-Xz">
-    <img src="https://github.com/Arlette-Xz.png" width="130" height="130" alt="Arlette-Xz ꕤ"/>
+    <img src="https://github.com/LuisCheats.png" width="130" height="130" alt="Arlette-Xz ꕤ"/>
     <br>
     <strong>Arlette-Xz</strong>
   </a>
