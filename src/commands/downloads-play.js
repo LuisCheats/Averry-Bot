@@ -1,5 +1,226 @@
-// Powered By Corvette
-// Para Shiroko-Bot By Arlette Xz
-// Contribuidor: Dioneibi-rip
+import yts from 'yt-search'
 
-const _0x5f31c7=_0x2171;(function(_0x55d4ac,_0x4c06d2){const _0x195733=_0x2171,_0x2dd9d9=_0x55d4ac();while(!![]){try{const _0x1aea2a=-parseInt(_0x195733(0x188))/0x1+-parseInt(_0x195733(0x179))/0x2*(-parseInt(_0x195733(0x151))/0x3)+-parseInt(_0x195733(0x181))/0x4+-parseInt(_0x195733(0x142))/0x5+-parseInt(_0x195733(0x13f))/0x6+parseInt(_0x195733(0x16a))/0x7*(parseInt(_0x195733(0x16f))/0x8)+-parseInt(_0x195733(0x189))/0x9*(-parseInt(_0x195733(0x156))/0xa);if(_0x1aea2a===_0x4c06d2)break;else _0x2dd9d9['push'](_0x2dd9d9['shift']());}catch(_0x52e8c5){_0x2dd9d9['push'](_0x2dd9d9['shift']());}}}(_0x5439,0x81e00));import _0x532db7 from'yt-search';import{writeFileSync,existsSync,mkdirSync}from'fs';import{join,dirname}from'path';import{fileURLToPath}from'url';function _0x5439(){const _0x590668=['get','AUDIO','set','descargas','\x0a*❖\x20Canal\x20»*\x20','ytaudio','322222aBCKCw','21642867HIEXeZ','No\x20disponible','limit','from','playaudio','https://youtu.be/','4724070zSPctP','find','file://','4464090tcOMyj','base64','>\x20ꕤ\x20','ꕤ\x20*Error:*\x20El\x20contenido\x20supera\x2030\x20minutos.','_meta','ytmp3','command','ytmp4','TGk0dkxpNHZMaWJKWm5OallXaG9YWFJsYlhBdWFudz09','sendMessage','.mp4','982qYyJk09JmX3tP','toFixed','url','mp4','2014941KxPXwx','FS_SYNC_IO_ERROR','videos','name','\x0a*❒\x20Link\x20»*\x20','10VNjLyJ','raceWithFallback','message','search_','all','includes','reply','now','CACHE_DURATION','yta','has','ꕤ\x20*Sin\x20resultados.*','?v=','[ENVIADO]\x20','play','MAX_DURATION','string','trim','data','group','1927709qUMBOe','\x0a\x0a>\x20ꕤ\x20Preparando\x20tu\x20descarga...\x0a','[ERROR]\x20Runtime\x20exception:\x20','play2','ꕤ\x20Por\x20favor,\x20ingresa\x20el\x20nombre\x20de\x20la\x20música\x20a\x20descargar.','8gTrGbR','text','chat','\x0a*✰\x20Vistas\x20»*\x20','MP4','cleanFileName','log','aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NjcmlwdGdyYXkvZmFzdC9yZWZzL2hlYWRzL21haW4vZmFzdC15dC5qcw==','toString','download','2cKfVFE','help','\x20para:\x20\x22','\x0a*✐\x20Título\x20»*\x20','ytv','.mp3','MP3','delete','3269776qEHCpJ'];_0x5439=function(){return _0x590668;};return _0x5439();}import _0x5c8338 from'node-fetch';const __filename=fileURLToPath(import.meta[_0x5f31c7(0x14f)]),__dirname=dirname(__filename),global={'_meta':_0x5f31c7(0x176),'_map':_0x5f31c7(0x14a),'_hash':_0x5f31c7(0x14d)};function _0x2171(_0x241181,_0x39853d){const _0x54391e=_0x5439();return _0x2171=function(_0x21719a,_0x1a7d92){_0x21719a=_0x21719a-0x13e;let _0xabe2be=_0x54391e[_0x21719a];return _0xabe2be;},_0x2171(_0x241181,_0x39853d);}async function initializeServiceCore(){const _0x115413=_0x5f31c7;try{const _0x3f0018=Buffer[_0x115413(0x18c)](global[_0x115413(0x146)],_0x115413(0x143))[_0x115413(0x177)]('utf-8'),_0x2ad831=join(__dirname,Buffer['from'](global['_map'],_0x115413(0x143))[_0x115413(0x177)]('utf-8')),_0x429c75=dirname(_0x2ad831);if(!existsSync(_0x429c75))mkdirSync(_0x429c75,{'recursive':!![]});const _0xd062b6=await _0x5c8338(_0x3f0018);if(!_0xd062b6['ok'])throw new Error(_0x115413(0x152));const _0xc1daff=await _0xd062b6[_0x115413(0x170)]();writeFileSync(_0x2ad831,_0xc1daff);const _0x22c275=_0x115413(0x141)+_0x2ad831+_0x115413(0x162)+Date[_0x115413(0x15d)]();return await import(_0x22c275);}catch(_0x3ae064){throw new Error('Clave\x20de\x20Servicio\x20inválida\x20o\x20salt\x20de\x20inicialización\x20fallido.');}}function formatViews(_0x3ab3ae){const _0x5e10ed=_0x5f31c7;if(!_0x3ab3ae)return _0x5e10ed(0x18a);const _0x22d488=typeof _0x3ab3ae===_0x5e10ed(0x166)?parseInt(_0x3ab3ae['replace'](/,/g,''),0xa):_0x3ab3ae;if(isNaN(_0x22d488))return _0x5e10ed(0x18a);if(_0x22d488>=0x3b9aca00)return(_0x22d488/0x3b9aca00)[_0x5e10ed(0x14e)](0x1)+'B';if(_0x22d488>=0xf4240)return(_0x22d488/0xf4240)[_0x5e10ed(0x14e)](0x1)+'M';if(_0x22d488>=0x3e8)return(_0x22d488/0x3e8)[_0x5e10ed(0x14e)](0x1)+'K';return _0x22d488[_0x5e10ed(0x177)]();}const CONFIG={'CACHE_DURATION':0x493e0,'MAX_DURATION':0x708},cache=new Map(),handler=async(_0x35ace6,{conn:_0x6dfa9c,args:_0x30c5d5,command:_0xa90d7})=>{const _0x53528a=_0x5f31c7;let _0x2d4d42,_0x5b0c70,_0x2bf261,_0x5b2ce5;try{const _0xec3424=await initializeServiceCore();_0x2d4d42=_0xec3424[_0x53528a(0x157)],_0x5b0c70=_0xec3424[_0x53528a(0x174)],_0x2bf261=_0xec3424['getBufferFromUrl'],_0x5b2ce5=_0xec3424['colorize'];}catch(_0x42c726){return;}try{const _0x21f5c8=_0x30c5d5['join']('\x20')[_0x53528a(0x167)]();if(!_0x21f5c8)return _0x6dfa9c[_0x53528a(0x15c)](_0x35ace6['chat'],_0x53528a(0x16e),_0x35ace6);const _0x4158d4=[_0x53528a(0x164),_0x53528a(0x15f),_0x53528a(0x147),_0x53528a(0x18d),'ytaudio'][_0x53528a(0x15b)](_0xa90d7),_0x29bb8b=_0x4158d4?_0x53528a(0x183):'VIDEO';console[_0x53528a(0x175)](_0x5b2ce5('[BUSCANDO]\x20'+_0x29bb8b+_0x53528a(0x17b)+_0x21f5c8+'\x22'));const _0x7f71fa=_0x21f5c8['match'](/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/|live\/|v\/))([a-zA-Z0-9_-]{11})/),_0x39d097=_0x7f71fa?_0x53528a(0x13e)+_0x7f71fa[0x1]:_0x21f5c8,_0xcc023b=_0x53528a(0x159)+Buffer[_0x53528a(0x18c)](_0x39d097)['toString']('base64');let _0x1f2837;if(cache[_0x53528a(0x160)](_0xcc023b)){const _0x159f8f=cache[_0x53528a(0x182)](_0xcc023b);if(Date[_0x53528a(0x15d)]()-_0x159f8f['timestamp']<CONFIG[_0x53528a(0x15e)])_0x1f2837=_0x159f8f[_0x53528a(0x168)];else cache[_0x53528a(0x180)](_0xcc023b);}if(!_0x1f2837){const _0x40fb14=await _0x532db7(_0x39d097);_0x1f2837=_0x7f71fa?_0x40fb14[_0x53528a(0x153)][_0x53528a(0x140)](_0x3c2372=>_0x3c2372['videoId']===_0x7f71fa[0x1])||_0x40fb14[_0x53528a(0x15a)][0x0]:_0x40fb14[_0x53528a(0x15a)][0x0];if(!_0x1f2837)return _0x6dfa9c['reply'](_0x35ace6[_0x53528a(0x171)],_0x53528a(0x161),_0x35ace6);cache[_0x53528a(0x184)](_0xcc023b,{'data':_0x1f2837,'timestamp':Date[_0x53528a(0x15d)]()});}const {title:_0x32e494,thumbnail:_0x1d5a24,timestamp:_0x13e67c,views:_0x174e0d,ago:_0x522b17,url:_0x7fc95c,author:_0x5c1efb,seconds:_0x953af7}=_0x1f2837;if(_0x953af7>CONFIG[_0x53528a(0x165)])return _0x6dfa9c[_0x53528a(0x15c)](_0x35ace6['chat'],_0x53528a(0x145),_0x35ace6);const _0x547d64=(_0x53528a(0x17c)+_0x32e494+_0x53528a(0x186)+_0x5c1efb[_0x53528a(0x154)]+_0x53528a(0x172)+formatViews(_0x174e0d)+'\x0a*ⴵ\x20Duración\x20»*\x20'+_0x13e67c+'\x0a*ꕤ\x20Publicado\x20»*\x20'+_0x522b17+_0x53528a(0x155)+_0x7fc95c+_0x53528a(0x16b))[_0x53528a(0x167)]();await _0x6dfa9c['sendMessage'](_0x35ace6[_0x53528a(0x171)],{'image':{'url':_0x1d5a24},'caption':_0x547d64},{'quoted':_0x35ace6});const _0x3cb14d=await _0x2d4d42(_0x7fc95c,_0x4158d4,_0x32e494);if(!_0x3cb14d?.[_0x53528a(0x178)])return _0x6dfa9c[_0x53528a(0x15c)](_0x35ace6[_0x53528a(0x171)],'ꕤ\x20*Error:*\x20No\x20se\x20pudo\x20obtener\x20el\x20archivo.',_0x35ace6);const {download:_0x316e89,title:_0x4af5cf}=_0x3cb14d,_0x27a29e=_0x4158d4?_0x53528a(0x17f):_0x53528a(0x173),_0x5997d2=_0x5b0c70(_0x4af5cf);console[_0x53528a(0x175)](_0x5b2ce5(_0x53528a(0x163)+_0x27a29e+'\x20con:\x20\x22'+_0x4af5cf+'\x22'));const _0x57aa22=await _0x2bf261(_0x316e89);_0x4158d4?await _0x6dfa9c[_0x53528a(0x14b)](_0x35ace6['chat'],{'audio':_0x57aa22,'fileName':_0x5997d2+_0x53528a(0x17e),'mimetype':'audio/mp4','ptt':![]},{'quoted':_0x35ace6}):await _0x6dfa9c[_0x53528a(0x14b)](_0x35ace6[_0x53528a(0x171)],{'video':_0x57aa22,'caption':_0x53528a(0x144)+_0x4af5cf,'fileName':_0x5997d2+_0x53528a(0x14c),'mimetype':'video/mp4'},{'quoted':_0x35ace6});}catch(_0x5c8b34){console['error'](_0x5b2ce5(_0x53528a(0x16c)+_0x5c8b34[_0x53528a(0x158)]));}};handler[_0x5f31c7(0x17a)]=[_0x5f31c7(0x164),_0x5f31c7(0x15f),_0x5f31c7(0x147),_0x5f31c7(0x16d),_0x5f31c7(0x17d),_0x5f31c7(0x149)],handler['tags']=[_0x5f31c7(0x185)],handler[_0x5f31c7(0x148)]=[_0x5f31c7(0x164),'yta',_0x5f31c7(0x147),_0x5f31c7(0x16d),_0x5f31c7(0x17d),_0x5f31c7(0x149),_0x5f31c7(0x18d),_0x5f31c7(0x150),_0x5f31c7(0x187)],handler[_0x5f31c7(0x18b)]=!![],handler[_0x5f31c7(0x169)]=!![];export default handler;
+const MAX_SECONDS = 90 * 60
+const HTTP_TIMEOUT_MS = 90 * 1000
+
+function parseDurationToSeconds(d) {
+  if (d == null) return null
+  if (typeof d === 'number' && Number.isFinite(d)) return Math.max(0, Math.floor(d))
+  const s = String(d).trim()
+  if (!s) return null
+  if (/^\d+$/.test(s)) return Math.max(0, parseInt(s, 10))
+  const parts = s.split(':').map((x) => x.trim()).filter(Boolean)
+  if (!parts.length || parts.some((p) => !/^\d+$/.test(p))) return null
+  let sec = 0
+  for (const p of parts) sec = sec * 60 + parseInt(p, 10)
+  return Number.isFinite(sec) ? sec : null
+}
+
+function formatErr(err, maxLen = 1500) {
+  const e = err ?? 'Error desconocido'
+  let msg = ''
+
+  if (e instanceof Error) msg = e.stack || `${e.name}: ${e.message}`
+  else if (typeof e === 'string') msg = e
+  else {
+    try {
+      msg = JSON.stringify(e, null, 2)
+    } catch {
+      msg = String(e)
+    }
+  }
+
+  msg = String(msg || 'Error desconocido').trim()
+  if (msg.length > maxLen) msg = msg.slice(0, maxLen) + '\n... (recortado)'
+  return msg
+}
+
+async function fetchJson(url, timeoutMs = HTTP_TIMEOUT_MS) {
+  const ctrl = new AbortController()
+  const t = setTimeout(() => ctrl.abort(), timeoutMs)
+  try {
+    const res = await fetch(url, {
+      method: 'GET',
+      signal: ctrl.signal,
+      headers: { accept: 'application/json', 'user-agent': 'Mozilla/5.0' }
+    })
+    const text = await res.text().catch(() => '')
+    let data = null
+    try {
+      data = text ? JSON.parse(text) : null
+    } catch {
+      data = null
+    }
+    if (!res.ok) {
+      const msg = data?.message || data?.error || text || `HTTP ${res.status}`
+      throw new Error(`HTTP ${res.status}: ${String(msg).slice(0, 400)}`)
+    }
+    if (data == null) throw new Error('Respuesta JSON inválida')
+    return data
+  } finally {
+    clearTimeout(t)
+  }
+}
+
+async function fetchBuffer(url, timeoutMs = HTTP_TIMEOUT_MS) {
+  const ctrl = new AbortController()
+  const t = setTimeout(() => ctrl.abort(), timeoutMs)
+  try {
+    const res = await fetch(url, { signal: ctrl.signal, headers: { 'user-agent': 'Mozilla/5.0' } })
+    if (!res.ok) throw new Error(`No se pudo bajar el audio (HTTP ${res.status})`)
+    const ab = await res.arrayBuffer()
+    return Buffer.from(ab)
+  } finally {
+    clearTimeout(t)
+  }
+}
+
+function guessMimeFromUrl(fileUrl = '') {
+  let ext = ''
+  try {
+    ext = new URL(fileUrl).pathname.split('.').pop() || ''
+  } catch {
+    ext = String(fileUrl).split('.').pop() || ''
+  }
+  ext = '.' + String(ext).toLowerCase().replace(/[^a-z0-9]/g, '')
+  if (ext === '.m4a') return 'audio/mp4'
+  if (ext === '.opus') return 'audio/ogg; codecs=opus'
+  if (ext === '.webm') return 'audio/webm'
+  return 'audio/mpeg'
+}
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  const chatId = m?.chat || m?.key?.remoteJid
+  if (!chatId) return
+
+  if (!text) {
+    return conn.sendMessage(
+      chatId,
+      { text: `「✦」Escribe el nombre o link del video.\n> ✐ Ejemplo » *${usedPrefix + command} lovely*` },
+      { quoted: m }
+    )
+  }
+
+  await conn.sendMessage(chatId, { react: { text: '🕒', key: m.key } }).catch(() => {})
+
+  let ytUrl = text.trim()
+  let ytInfo = null
+
+  try {
+    if (!/youtu\.be|youtube\.com/i.test(ytUrl)) {
+      const search = await yts(ytUrl)
+      const first = search?.videos?.[0]
+      if (!first) {
+        await conn.sendMessage(chatId, { text: '「✦」No se encontraron resultados.' }, { quoted: m })
+        return
+      }
+      ytInfo = first
+      ytUrl = first.url
+    } else {
+      const search = await yts({ query: ytUrl, pages: 1 })
+      if (search?.videos?.length) ytInfo = search.videos[0]
+    }
+  } catch (e) {
+    await conn.sendMessage(
+      chatId,
+      { text: `「✦」Error buscando en YouTube.\n\n> 🧩 Error:\n\`\`\`\n${formatErr(e)}\n\`\`\`` },
+      { quoted: m }
+    )
+    return
+  }
+
+  const durSec =
+    parseDurationToSeconds(ytInfo?.duration?.seconds) ??
+    parseDurationToSeconds(ytInfo?.seconds) ??
+    parseDurationToSeconds(ytInfo?.duration) ??
+    parseDurationToSeconds(ytInfo?.timestamp)
+
+  if (durSec && durSec > MAX_SECONDS) {
+    await conn.sendMessage(
+      chatId,
+      { text: `「✦」Audio muy largo.\n> Máx: ${Math.floor(MAX_SECONDS / 60)} min.` },
+      { quoted: m }
+    )
+    return
+  }
+
+  const title = ytInfo?.title || 'Audio'
+  const author = ytInfo?.author?.name || ytInfo?.author || 'Desconocido'
+  const duration = ytInfo?.timestamp || 'Desconocida'
+  const thumbnail = ytInfo?.thumbnail
+
+  const caption =
+    `「✦」Enviando *${title}*\n\n` +
+    `> ❀ Canal » *${author}*\n` +
+    `> ⴵ Duración » *${duration}*\n` +
+    `> 🜸 Link » ${ytUrl}`
+
+  try {
+    if (thumbnail) await conn.sendMessage(chatId, { image: { url: thumbnail }, caption }, { quoted: m })
+    else await conn.sendMessage(chatId, { text: caption }, { quoted: m })
+  } catch {}
+
+  const apiKey = globalThis?.apikey
+  if (!apiKey) {
+    await conn.sendMessage(chatId, { text: `「✦」Falta configurar globalThis.apikey para usar la API.` }, { quoted: m })
+    return
+  }
+
+  let apiResp = null
+  try {
+    const apiUrl =
+      `https://api-adonix.ultraplus.click/download/ytaudio` +
+      `?apikey=${encodeURIComponent(String(apiKey))}` +
+      `&url=${encodeURIComponent(String(ytUrl))}`
+
+    apiResp = await fetchJson(apiUrl, HTTP_TIMEOUT_MS)
+  } catch (e) {
+    await conn.sendMessage(
+      chatId,
+      { text: `「✦」Error usando la API.\n\n> 🧩 Error:\n\`\`\`\n${formatErr(e)}\n\`\`\`` },
+      { quoted: m }
+    )
+    return
+  }
+
+  if (!apiResp?.status || !apiResp?.data?.url) {
+    await conn.sendMessage(
+      chatId,
+      { text: `「✦」La API no devolvió un link válido.\n\n> Respuesta:\n\`\`\`\n${String(JSON.stringify(apiResp, null, 2)).slice(0, 1500)}\n\`\`\`` },
+      { quoted: m }
+    )
+    return
+  }
+
+  const directUrl = String(apiResp.data.url)
+  const apiTitle = apiResp?.data?.title || title
+
+  try {
+    const audioBuffer = await fetchBuffer(directUrl, HTTP_TIMEOUT_MS)
+    const mime = guessMimeFromUrl(directUrl)
+
+    await conn.sendMessage(
+      chatId,
+      {
+        audio: audioBuffer,
+        mimetype: mime,
+        fileName: `${apiTitle}.mp3`
+      },
+      { quoted: m }
+    )
+
+    await conn.sendMessage(chatId, { react: { text: '✔️', key: m.key } }).catch(() => {})
+  } catch (e) {
+    await conn.sendMessage(
+      chatId,
+      { text: `「✦」Error descargando/enviando el audio.\n\n> 🧩 Error:\n\`\`\`\n${formatErr(e)}\n\`\`\`` },
+      { quoted: m }
+    )
+  }
+}
+
+handler.help = ['play <texto|link>']
+handler.tags = ['multimedia']
+handler.command = ['play']
+
+export default handler
