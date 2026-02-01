@@ -74,7 +74,7 @@ global.channel = ""
 global.github = "https://github.com/LuisCheats/Averry-Bot"
 global.gmail = "averry_team@gmail.com"
 global.ch = {
-    ch1: "120363402648953286"
+    ch1: "120363402648953286@newsletter"
 }
 
 // ─────────────────────────────
