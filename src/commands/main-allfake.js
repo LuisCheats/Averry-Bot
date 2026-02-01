@@ -11,8 +11,8 @@ handler.all = async function (m) {
     global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
 
     global.nombre = m.pushName || 'Usuario'
-    global.packsticker = `┊ 7Noonly Team\n⤷ https://github.com/LuisCheats\n\n┊INFO\n ⤷ Goticas`
-    global.packsticker2 = `┊Bot\n┊⤷${global.botname} \n\n┊Usuario:\n┊⤷${nombre}`
+    global.packsticker = `† 7Noonly Team\n Goticas Qlonas\n\nMade By Luis777`
+    global.packsticker2 = `Bot\n${global.botname} \n\nUsuario:\n${nombre}`
     
     const canalConfig = {
         newsletterJid: global.idchannel,
