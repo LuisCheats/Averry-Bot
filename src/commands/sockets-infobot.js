@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
     const nombreBot = global.botname || 'Shiroko'
     const moneda = global.currency || 'Sky-Coins'
     const textobot = global.textbot || 'Made with love by Arlette Xz'
-    const canal = global.channel || 'https://whatsapp.com/channel/0029VbBj5it3LdQMIxu7zP1l'
+    const canal = global.channel || ''
 
     const tipoBot = (conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')
     const host = tipoBot === 'Principal' ? 'Speed3xz VIP' : 'Speed3xz SUB'
