@@ -41,7 +41,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
           mentionedJid: [userId],
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363403176894973@newsletter',
+            newsletterJid: '120363402648953286@newsletter',
             serverMessageId: '',
             newsletterName: '【 ✰ 】𝗦𝗽𝗲𝗲𝗱𝟯𝘅𝘇 𝗖𝗹𝘂𝗯 - 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 𝗖𝗵𝗮𝗻𝗻𝗲𝗹'
           },
