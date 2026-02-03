@@ -1,33 +1,31 @@
-import axios from 'axios'
+import fetch from 'node-fetch';
 
-let handler = async (m, { conn }) => {
-  try {
-    // Llamada a tu API
-    let { data } = await axios.get(
-      'https://averry-api.vercel.app/nsfw/waifu'
-    )
+const handler = async (m, { conn, usedPrefix, command }) => {
+    try {
+        m.react('🕒');
+        
+        const response = await fetch('https://averry-api.vercel.app/docs?share=nsfw');
+        if (!response.ok) throw new Error('Error en la API');
+        
+        const { url } = await response.json();
+        if (!url) throw new Error('URL no disponible');
+        
+        await Promise.all([
+            conn.sendFile(m.chat, url, 'waifu.jpg', '🌸 𝗪𝗮𝗶𝗳𝘂 𝗱𝗲𝘁𝗲𝗰𝘁𝗮𝗱𝗮', m),
+            m.react('✔️')
+        ]);
+        
+    } catch (err) {
+        m.react('✖️');
+        conn.sendMessage(m.chat, { 
+            text: `❌ 𝗘𝗿𝗿𝗼𝗿\n• Usa *${usedPrefix}report* para notificar el problema\n\n${err.message}` 
+        }, { quoted: m });
+    }
+};
 
-    let img = data.url || data.image
-    if (!img) throw 'No se pudo obtener la imagen'
+handler.help = ['waifu'];
+handler.tags = ['anime'];
+handler.command = ['waifu18'];
+handler.group = true;
 
-    // Enviar imagen
-    await conn.sendMessage(m.chat, {
-      image: { url: img },
-      caption: '🔥 Waifu NSFW\n\n© Averry API'
-    }, { quoted: m })
-
-  } catch (e) {
-    console.error(e)
-    m.reply('❌ Error al obtener la waifu NSFW')
-  }
-}
-
-handler.help = ['waifunsfw']
-handler.tags = ['nsfw']
-handler.command = ['waifunsfw', 'nsfwwaifu']
-
-// Opcional: solo en grupos + nsfw activado
-handler.group = true
-handler.nsfw = true
-
-export default handler
+export default handler;
