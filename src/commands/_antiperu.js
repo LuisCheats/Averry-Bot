@@ -4,7 +4,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isROwner }) {
     const chat = global?.db?.data?.chats[m.chat];
     if (!chat?.antiperuano) return;
 
-    const isPeruano = m.sender.includes('51') || m.sender.includes('+51');
+    const isPeruano = m.sender.includes('57') || m.sender.includes('+57');
     
     if (isPeruano && !isAdmin && !isROwner) {
         if (!isBotAdmin) return;
@@ -44,7 +44,7 @@ export async function participantsUpdate(m, { conn, isBotAdmin }) {
             if (participant.action === 'add') {
                 const userJid = participant.id;
                 
-                if (userJid.includes('51') || userJid.includes('+51')) {
+                if (userJid.includes('57') || userJid.includes('+57')) {
                     await Promise.all([
                         conn.groupParticipantsUpdate(m.chat, [userJid], 'remove'),
                         conn.sendMessage(m.chat, {
