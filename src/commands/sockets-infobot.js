@@ -8,11 +8,11 @@ let handler = async (m, { conn, args, usedPrefix }) => {
     // Se usan las variables globales definidas. Se ASUME que global.icono es un Buffer.
     const nombreBot = global.botname || 'Celest'
     const moneda = global.currency || 'Sky-Coins'
-    const textobot = global.textbot || 'Made with love by Arlette Xz'
+    const textobot = global.textbot || 'Made by 7Noonly'
     const canal = global.channel || 'https://whatsapp.com/channel/0029VbBJZs5G8l5EwrjizJ2H'
 
     const tipoBot = (conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')
-    const host = tipoBot === 'Principal' ? 'Speed3xz VIP' : 'Speed3xz SUB'
+    const host = tipoBot === 'Principal' ? 'CelestLocal' : 'CelestLocal'
 
     // Nota: Se usó ${botname} en el original, pero se corrige a ${nombreBot} o global.botname
     const botInfoText = `
@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 ❒ *Host:* ${host}
 ❒ *Conectado a:* Sky
 ❒ *Tipo:* ${tipoBot}
-❒ *Dueño:* Oculto por privacidad.
+❒ *Dueño:* @7Noonly.
 
 > *Canal* \`${canal}\`
 `.trim()
@@ -41,9 +41,9 @@ let handler = async (m, { conn, args, usedPrefix }) => {
           mentionedJid: [userId],
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363403176894973@newsletter',
+            newsletterJid: '120363402648953286@newsletter',
             serverMessageId: '',
-            newsletterName: '【 ✰ 】𝗦𝗽𝗲𝗲𝗱𝟯𝘅𝘇 𝗖𝗹𝘂𝗯 - 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 𝗖𝗵𝗮𝗻𝗻𝗲𝗹'
+            newsletterName: '𝘾𝙚𝙡𝙚𝙨𝙩 𝘽𝙤𝙩'
           },
           externalAdReply: {
             title: `${nombreBot} - Bot Information`,
