@@ -6,28 +6,21 @@ let handler = async (m, { conn }) => {
 
     const menuText = `> *@Hola Soy Leo Creador De Itsuki Nakano La Bot Que Estas Usando*\n\n> sᴇʟᴇᴄɪᴏɴᴀ ᴜɴ ᴍᴇᴛᴏᴅᴏ ᴘᴀʀᴀ ᴄᴏᴍᴜɴɪᴄᴀʀᴛᴇ ᴄᴏɴᴍɪɢᴏ 🧃:`
 
-    const imageUrl = 'https://cdn.russellxz.click/892b3d23.jpg'
+    const imageUrl = 'https://files.catbox.moe/gfp193.jpg'
 
     const nativeButtons = [
       {
         name: 'cta_url',
         buttonParamsJson: JSON.stringify({ 
           display_text: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢 📸', 
-          url: 'https://www.instagram.com/naayz01s' 
+          url: 'https://www.instagram.com/lzzin.xyz' 
         })
       },
       {
         name: 'cta_url',
         buttonParamsJson: JSON.stringify({ 
           display_text: '𝙊𝙬𝙣𝙚𝙧 👑', 
-          url: 'https://wa.me/573187418668' 
-        })
-      },
-      {
-        name: 'cta_url',
-        buttonParamsJson: JSON.stringify({ 
-          display_text: '𝘿𝙤𝙣𝙖𝙘𝙞𝙤𝙣𝙘𝙞𝙩𝙖 ❤️‍🩹', 
-          url: 'https://paypal.me' 
+          url: 'https://wa.me/50765836410' 
         })
       }
     ]
