@@ -11,7 +11,7 @@
 Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
 
 🚫 Este proyecto NO está afiliado a WhatsApp ni WhatsApp LLC.
-un bot hecho 100% por **[Arlette-Xz](https://github.com/Arlette-Xz)**.
+un bot hecho 100% por **[7Noonly](https://github.com/LuisCheats**.
 
 #### Características
 Configuración avanzada de grupos 
