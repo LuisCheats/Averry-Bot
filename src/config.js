@@ -68,7 +68,7 @@ global.welcomeConfig = {
 //  REDES SOCIALES
 // ─────────────────────────────
 
-global.canalNombre = "𝘼𝙫𝙚𝙧𝙧𝙮𝙏𝙚𝙖𝙢"
+global.canalNombre = "𝘾𝙚𝙡𝙚𝙨𝙩 𝘽𝙤𝙩"
 global.group = ""
 global.channel = ""
 global.github = "https://github.com/LuisCheats/Averry-Bot"
