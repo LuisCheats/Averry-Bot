@@ -1,7 +1,7 @@
 let handler = async (m, { conn }) => {
     const specialNumbers = {
-        '+50765836410': 'https://cdn.russellxz.click/f1313de4.jpeg',
-        '+50765836410': 'https://cdn.russellxz.click/f1313de4.jpeg'
+        '+50765836410': 'https://files.catbox.moe/t1y9r4.jpg',
+        '+50765836410': 'https://files.catbox.moe/t1y9r4.jpg'
     }
     
     const sender = m.sender.split('@')[0]
@@ -19,8 +19,8 @@ let handler = async (m, { conn }) => {
     }
     
     const altFormats = {
-        '50765836410': 'https://cdn.russellxz.click/f1313de4.jpeg',
-        '50765836410': 'https://cdn.russellxz.click/f1313de4.jpeg'
+        '50765836410': 'https://files.catbox.moe/t1y9r4.jpg',
+        '50765836410': 'https://files.catbox.moe/t1y9r4.jpg'
     }
     
     if (!photoUrl && altFormats[cleanSender]) {
