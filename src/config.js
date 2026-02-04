@@ -69,8 +69,8 @@ global.welcomeConfig = {
 // ─────────────────────────────
 
 global.canalNombre = "𝘾𝙚𝙡𝙚𝙨𝙩 𝘽𝙤𝙩"
-global.group = ""
-global.channel = ""
+global.group = "https://whatsapp.com/channel/0029VbBJZs5G8l5EwrjizJ2H"
+global.channel = "https://whatsapp.com/channel/0029VbBJZs5G8l5EwrjizJ2H"
 global.github = "https://github.com/LuisCheats/Averry-Bot"
 global.gmail = "averry_team@gmail.com"
 global.ch = {
