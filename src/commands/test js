@@ -1,0 +1,41 @@
+import fetch from 'node-fetch';
+
+const handler = async (m, { conn, usedPrefix, command }) => {
+  try {
+    m.react('🕒');
+
+    const url = 'https://averry-api.vercel.app/nsfw/nsfw1';
+
+    // Verificación simple
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('La API no respondió correctamente');
+
+    await conn.sendFile(
+      m.chat,
+      url,
+      'nsfw.jpg',
+      '🔥 *NSFW generado*\n\n⚠️ Solo mayores de edad',
+      m
+    );
+
+    m.react('✔️');
+
+  } catch (err) {
+    m.react('✖️');
+    await conn.sendMessage(
+      m.chat,
+      {
+        text: `❌ *Error*\n• Usa *${usedPrefix}report* para reportar\n\n${err.message}`
+      },
+      { quoted: m }
+    );
+  }
+};
+
+handler.help = ['nsfw'];
+handler.tags = ['nsfw'];
+handler.command = ['nsfw'];
+handler.group = true;   // o false si querés permitir en privado
+handler.nsfw = true;    // recomendado si tu bot lo soporta
+
+export default handler;
