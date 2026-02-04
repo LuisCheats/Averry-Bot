@@ -34,7 +34,7 @@ const handler = async (m, { conn, usedPrefix, command }) => {
 
 handler.help = ['nsfw'];
 handler.tags = ['nsfw'];
-handler.command = ['nsfw'];
+handler.command = ['nsfw1'];
 handler.group = true;   // o false si querés permitir en privado
 handler.nsfw = true;    // recomendado si tu bot lo soporta
 
